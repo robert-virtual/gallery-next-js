@@ -1,0 +1,11 @@
+
+GET http://localhost:3000/api/images
+
+###
+POST http://localhost:3000/api/images
+Content-Type: application/json
+
+{
+    "title":"First Image",
+    "filename":"hola.png"
+}
